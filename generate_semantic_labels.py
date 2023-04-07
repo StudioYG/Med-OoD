@@ -1,4 +1,5 @@
 """Loading the labels within the Lizard dataset."""
+# Reference: https://warwick.ac.uk/fac/cross_fac/tia/data/lizard
 
 import os
 import cv2
