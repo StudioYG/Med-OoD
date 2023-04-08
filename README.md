@@ -4,6 +4,11 @@ Biomedical segmentation networks easily suffer from the unexpected misclassifica
 # Data
 Before starting the training or testing sections, the user can choose to either follow Step1 to generate the data from scratch or follow Step2, if the user wants to directly download the prepared data.
 ## Step1
-Create several folders in your workspace
+1. Create several folders in your workspace:
 ```mkdir Semantic_Labels Image_Patchs Mask_Patchs OoD_Patchs```
+2. Download the official Lizard dataset from https://warwick.ac.uk/fac/cross_fac/tia/data/lizard and place each folder well in your workspace, then run the script: ```python generate_semantic_labels.py``` to generate the semantic masks in the folder called Semantic_Labels
+3. Run another two scripts:```python generate_patches.py``` and ```python generate_unfiltered_oods.py``` to generate the patches in the folders called Image_Patchs, Mask_Patchs and OoD_Patchs 
 ## Step2
+1. Download the prepared data directly from ------ and place the folders including Image_Patchs, Mask_Patchs and OoD_Patchs properly in your workspace. 
+## Training
+1. 
