@@ -11,4 +11,6 @@ Before starting the training or testing sections, the user can choose to either 
 ## Step2
 1. Download the prepared data directly from ------ and place the folders including Image_Patchs, Mask_Patchs and OoD_Patchs properly in your workspace. 
 ## Training
-1. 
+1. ```config.py``` is the configuration file which can be used to modify encoder, architecture and other settings. 
+2. ```train.py``` is the training script for baselines and ```train_ood.py``` is the training script when applying Med-OoD to baselines. 
+3. To train both versions, i.e., baseline and baseline+Med-OoD, just run the script: ```python main.py```
