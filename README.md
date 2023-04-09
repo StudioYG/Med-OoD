@@ -15,4 +15,4 @@ Before starting the training or testing sections, the user can choose to either 
 2. ```train.py``` is the training script for baselines and ```train_ood.py``` is the training script when applying Med-OoD to baselines. 
 3. To train both versions, i.e., baseline and baseline+Med-OoD, just run the script: ```python main.py```
 # Testing
-1. ```test.py``` is the testing script which the user can use to test the trained models. Unet-VGG11BN and Unet-VGG11BN+Med-OoD trained on Lizard dataset have also been released at 
+1. ```test.py``` is the testing script which the user can use to test the trained models. Unet-VGG11BN and Unet-VGG11BN+Med-OoD trained on Lizard dataset have also been released at  
