@@ -15,7 +15,7 @@ Before starting the training or testing sections, the user can choose to either 
 2. ```train.py``` is the training script for baselines and ```train_ood.py``` is the training script when applying Med-OoD to baselines. 
 3. To train both versions, i.e., baseline and baseline+Med-OoD, just run the script: ```python main.py```
 # Testing
-1. ```test.py``` is the testing script which the user can use to test the trained models. Unet-VGG11BN and Unet-VGG11BN+Med-OoD trained on Lizard dataset have also been released at  
+1. ```test.py``` is the testing script which the user can use to test the trained models. Unet-VGG11BN and Unet-VGG11BN+Med-OoD trained on Lizard dataset have also been released at https://drive.google.com/file/d/13X9U58_ZzjeDIr_7Rmef57hcnI-ASleJ/view?usp=share_link
 2. Place the downloaded models or your trained models properly in your workspace, modify the settings of script if needed, then run the testing: ```python test.py```.
 # References
 1. Graham, S., Jahanifar, M., Azam, A., Nimir, M., Tsang, Y.-W., Dodd, K., Hero, E., Sahota, H., Tank, A., Benes, K., et al. (2021). Lizard: A large-scale dataset for colonic nuclear instance segmentation and classification. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 684–693
