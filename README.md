@@ -16,6 +16,7 @@ Before starting the training or testing sections, the user can choose to either 
 3. To train both versions, i.e., baseline and baseline+Med-OoD, just run the script: ```python main.py```
 # Testing
 1. ```test.py``` is the testing script which the user can use to test the trained models. Unet-VGG11BN and Unet-VGG11BN+Med-OoD trained on Lizard dataset have also been released at  
+2. Place the downloaded models or your trained models properly in your workspace, modify the settings of script if needed, then run the testing: ```python test.py```.
 # References
 1. Graham, S., Jahanifar, M., Azam, A., Nimir, M., Tsang, Y.-W., Dodd, K., Hero, E., Sahota, H., Tank, A., Benes, K., et al. (2021). Lizard: A large-scale dataset for colonic nuclear instance segmentation and classification. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 684–693
 2. Iakubovskii, P. (2019). Segmentation models pytorch. https://github.com/qubvel/segmentation_models.pytorch.
