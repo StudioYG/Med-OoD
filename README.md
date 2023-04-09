@@ -9,7 +9,7 @@ Before starting the training or testing sections, the user can choose to either 
 2. Download the official Lizard dataset from https://warwick.ac.uk/fac/cross_fac/tia/data/lizard and place each folder well in your workspace, then run the script: ```python generate_semantic_labels.py``` to generate the semantic masks in the folder called Semantic_Labels
 3. Run another two scripts:```python generate_patches.py``` and ```python generate_unfiltered_oods.py``` to generate the patches in the folders called Image_Patchs, Mask_Patchs and OoD_Patchs 
 ## Step2
-1. Download the prepared data directly from ------ and place the folders including Image_Patchs, Mask_Patchs and OoD_Patchs properly in your workspace. 
+1. Download the prepared data directly from https://drive.google.com/file/d/17NYYlXrMXBCM225YsmnFPXtievM4itWn/view?usp=share_link and place the folders including Image_Patchs, Mask_Patchs and OoD_Patchs properly in your workspace. 
 # Training
 1. ```config.py``` is the configuration file which can be used to modify encoder, architecture and other settings. 
 2. ```train.py``` is the training script for baselines and ```train_ood.py``` is the training script when applying Med-OoD to baselines. 
