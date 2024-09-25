@@ -21,3 +21,4 @@ Before starting the training or testing sections, the user can choose to either 
 1. Graham, S., Jahanifar, M., Azam, A., Nimir, M., Tsang, Y.-W., Dodd, K., Hero, E., Sahota, H., Tank, A., Benes, K., et al. (2021). Lizard: A large-scale dataset for colonic nuclear instance segmentation and classification. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 684–693.
 2. Iakubovskii, P. (2019). [Segmentation models pytorch](https://github.com/qubvel/segmentation_models.pytorch).
 # Citing
+Yiquan, G., Duohui, X. (2024). Out-of-Distribution Data Supervision towards Biomedical Semantic Segmentation. In Proceedings of the 5th International Conference on Signal Processing and Computer Science (SPCS 2024). 
